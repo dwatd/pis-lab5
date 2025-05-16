@@ -1,0 +1,27 @@
+{
+  "name": "pis-lab5",
+  "version": "1.0.0",
+  "description": "Цей проєкт реалізує систему сповіщення про виконані послуги у сільськогосподарському підприємстві за допомогою зовнішнього API — **Telegram Bot API**. Також створено HTTP-сервер, який повертає особисті дані користувача за логіном Moodle.",
+  "main": "sendMessage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwatd/pis-lab5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwatd/pis-lab5/issues"
+  },
+  "homepage": "https://github.com/dwatd/pis-lab5#readme",
+  "dependencies": {
+    "axios": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
